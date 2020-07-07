@@ -1,6 +1,7 @@
 "use strict";
 
-balance(10, 3);
+balance(12, 3);
+balance(11, 3);
 
 /**
  *
@@ -9,5 +10,9 @@ balance(10, 3);
  */
 
 function balance(a, b,) {
-    console.log (a % b);
+    if ( a % b === 0) {
+        console.log (`Делится; a / b = ${a / b}`);
+    } else {
+        console.log (`Делится с остатком; остаток: ${a % b} `);
+    }
 }
