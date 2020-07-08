@@ -1,10 +1,17 @@
 "use strict";
 
 /**
- * @deprecated - raising 2 to 10 degree
- * @type {number} - st
+ *
+ * @deprecated - square root of the sum of the cubes of a number
  */
 
-let st = Math.pow(2, 10);
-console.log(st)
+const mass =[4, 2, 5, 19, 13, 0, 10];
+
+let sum = 0;
+
+for (let i=0; i< mass.length; i++){
+         sum += Math.pow( Number(mass[i]) , 3);
+
+}
+console.log(Math.sqrt(sum));
 
