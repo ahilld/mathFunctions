@@ -26,7 +26,7 @@ console.log(maxNum);
 console.log(minNum);
 
 /**
- * @deprecated - Вывoдит на экран случайное целое число от 1 до 100.
+ * @deprecated - Выводит на экран случайное целое число от 1 до 100.
  * @param {number} min
  * @param {number} max
  * @returns {number}
@@ -39,3 +39,16 @@ function getRandomInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min)) + min;
 }
+
+/**
+ * @deprecated - Заполните массив 10-ю случайными целыми числами.
+ *
+ */
+
+const randomNumbersMass = {};
+
+for ( let i = 0; i < 10; i++ ){
+    randomNumbersMass[i] = getRandomInt(-1000000000,100000000);
+}
+
+console.log( randomNumbersMass );
