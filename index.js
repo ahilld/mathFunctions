@@ -1,11 +1,14 @@
 "use strict";
 
-let st = Math.sqrt(379);
-let st1 = Math.round(st);
-let st2 = Number((st-st1).toPrecision(1)) + st1;
-let st3 = Number((st-st1).toPrecision(2)) + st1;
+/**
+ *
+ * @deprecated Найдите квадратный корень из 587. Округлите результат
+ * в большую и меньшую стороны, запишите результаты округления в объект
+ * с ключами 'floor' и 'ceil'.
+ */
 
-console.log(st);
-console.log(st1);
-console.log(st2);
-console.log(st3);
+let st = Math.sqrt(587);
+let obj = {
+    floor: Math.floor(st),
+    ceil: Math.ceil(st),
+}
