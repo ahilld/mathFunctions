@@ -52,3 +52,14 @@ for ( let i = 0; i < 10; i++ ){
 }
 
 console.log( randomNumbersMass );
+
+/**
+ * Даны переменные a и b. Найдите найдите модуль разности a и b.
+  */
+
+function getMathAbs(a, b) {
+    let c = a - b;
+    console.log(Math.abs( c ));
+}
+
+getMathAbs(20,45);
