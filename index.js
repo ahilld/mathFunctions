@@ -54,7 +54,7 @@ for ( let i = 0; i < 10; i++ ){
 console.log( randomNumbersMass );
 
 /**
- * Даны переменные a и b. Найдите найдите модуль разности a и b.
+ * @deprecated - Даны переменные a и b. Найдите найдите модуль разности a и b.
   */
 
 function getMathAbs(a, b) {
@@ -63,3 +63,16 @@ function getMathAbs(a, b) {
 }
 
 getMathAbs(20,45);
+
+/**
+ * @deprecated - Даны переменные a и b. Отнимите от a переменную b и результат присвойте переменной c.
+ * Сделайте так, чтобы в любом случае в переменную c записалось положительное значение.
+ */
+
+function getAbsC (a, b) {
+    let c = Math.abs((a - b));
+    console.log( c );
+}
+
+getAbsC (3,5);
+getAbsC (6,1);
