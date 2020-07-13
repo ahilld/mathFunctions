@@ -91,6 +91,11 @@ for (let i = 0; i < arr.length; i++) {
 }
 console.log(c / arr.length);
 
+/**
+ * @deprecated -Напишите скрипт, который будет находить факториал числа
+ *
+ */
+
 function getFactorial(n) {
     let factorial = 1
     for (let i = 1; i <= n; i++){
