@@ -76,3 +76,17 @@ function getAbsC (a, b) {
 
 getAbsC (3,5);
 getAbsC (6,1);
+
+/**
+ * @deprecated - Дан массив arr. Найдите среднее арифметическое его элементов.
+ * Проверьте задачу на массиве с элементами 12, 15, 20, 25, 59, 79.
+ */
+
+const arr = [12, 15, 20, 25, 59, 79];
+let c = 0;
+for ( let i = 0; i< arr.length; i++){
+    c += arr[i];
+}
+console.log(c / arr.length);
+
+
